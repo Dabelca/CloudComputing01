@@ -1,0 +1,92 @@
+    1  sudo apt-get install git
+    2  git config --global user.name "Dabelca"
+    3  git config --global user.email "dabelca @gmail.com"
+    4  git config --list
+    5  git config --global --unset user.email
+    6  git config --list
+    7  git config --global user.email "dabelca159@gmail.com"
+    8  git remote add origin https://github.com/Bastyprof/CloudComputing01.git
+    9  git status
+   10  mkdir mi_pre_prueba
+   11  cd mi_pre_prueba
+   12  nano info.txt
+   13  ls
+   14  cp info.txt copia_info.txt
+   15  ls
+   16  cat
+   17  cat info.txt copia_info.txt 
+   18  rm -r copia_info.txt 
+   19  ls
+   20  ls -l info.txt 
+   21  chmod 600 info.txt 
+   22  echo "Daniela Beltrán" > .Archivo_oculto.txt
+   23  ls -a
+   24  ls
+   25  find "Daniela"
+   26  clear
+   27  sudo apt-get install git
+   28  git config --global user.name "Dabelca"
+   29  git config --global user.email "dabelca159@gmail.com"
+   30  git list
+   31  git lits
+   32  git config  list
+   33  git config list
+   34  git config --list
+   35  git init 
+   36  git clone https://github.com/Dabelca/CloudComputing01/tree/main.git
+   37  git clone https://github.com/Dabelca/CloudComputing01.git
+   38  ls
+   39  cd CloudComputing01/
+   40  ls
+   41  cd Beltran-Daniela/
+   42  cd ..
+   43  git checkout main 
+   44  git pull origin main 
+   45  git checkout -b Daniela_Beltrán_trabajo
+   46  cd Beltran-Daniela/
+   47  mkdir mi_pre_prueba
+   48  cd mi_pre_prueba/
+   49  nano info.txt
+   50  cat info.txt 
+   51  cp info.txt copia_info.txt
+   52  cat info.txt copia_info.txt 
+   53  rm -r copia_info.txt 
+   54  ls
+   55  ls -l
+   56  chmod 600 info.txt 
+   57  echo "Daniela Beltrán" > .Oculto-.txt
+   58  ls -a
+   59  cat .Oculto-.txt 
+   60  find . -type f -name "*.txt" 
+   61  grep "Daniela" info.txt 
+   62  nano a.txt
+   63  nano b.txt
+   64  cat a.txt b.txt > saludo.txt
+   65  tar -czvf archivos.tar.gz a.txt b.txt saludo.txt 
+   66  tar -xzvf archivos.tar.gz 
+   67  mkdir extraidos
+   68  cd extraidos/
+   69  cd ..
+   70  tar -czvf archivos.tar.gz a.txt b.txt saludo.txt 
+   71  mv archivos.tar.gz extraidos
+   72  cd
+   73  cd extraidos
+   74  ls
+   75  cd CloudComputing01/
+   76  cd Beltran-Daniela/
+   77  cd mi_pre_prueba/
+   78  cd extraidos/
+   79  tar -xzvf archivos.tar.gz 
+   80  nano nombres.csv
+   81  awk -f',' '{print $1}' nombres.csv 
+   82  ls
+   83  awk -f',' '{print$1}' nombres.csv 
+   84  awk -F',' '{print $1}' nombres.csv 
+   85  git status
+   86  git add .
+   87  git commit -m "Agrego pre prueba"
+   88  git push origin Daniela-Beltran-tarea
+   89  git push origin Daniela-Beltrán-tarea
+   90  git push origin Daniela-Beltrán-tareaDaniela_Beltrán_trabajo
+   91  git push origin Daniela_Beltrán_trabajo
+   92  history > history.txt
